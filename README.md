@@ -4,8 +4,11 @@
 
 1. Push this project to a GitHub repository.
 2. Open [share.streamlit.io](https://share.streamlit.io) and create an app.
-3. Select the repository, branch, and entrypoint `web/app.py`.
-4. In the app settings, add this secret:
+3. Select the repository and branch `main`.
+4. Set **Main file path** to `web/app.py`.
+5. Do not select `jarvis/app.py`; that file is the local microphone/desktop entrypoint,
+   not the Streamlit web application.
+6. In the app settings, add this secret:
 
 ```toml
 GEMINI_API_KEY = "your-key-here"
