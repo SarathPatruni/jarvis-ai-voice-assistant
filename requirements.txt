@@ -1,0 +1,8 @@
+SpeechRecognition
+PyAudio; platform_system == "Windows"
+pyttsx3
+gTTS
+streamlit
+requests
+python-dotenv
+google-genai
